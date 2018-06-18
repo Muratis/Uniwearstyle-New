@@ -1,0 +1,103 @@
+#about {
+    background-attachment: fixed;
+    width: 100%;
+    height: 980px;
+    background-size: cover;
+    background-image: url("/images/about_back.jpg");
+}
+
+
+
+.fix-block{
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    /*background-color:rgba(0, 0, 0,0.5) ;*/
+}
+
+.fix-block p {
+    margin-bottom: 30px;
+    text-indent: 35px;
+    font: 20px arial;
+    color: #FFFFFF;
+}
+
+.fix-block ul {
+    font: 20px arial;
+    color: #FFFFFF;
+}
+
+.fix-block ul li {
+    list-style: none;
+}
+
+@media (max-width: 769px) {
+
+    .fix-block ul {
+        font: 16px arial;
+    }
+
+
+    .fix-block p {
+        font: 16px arial;
+    }
+
+    #about {
+        height: 750px;
+    }
+
+
+    .fix-block{
+        padding-top: 140px;
+    }
+
+
+}
+
+@media (max-width: 600px){
+
+    .fix-block ul {
+        font: 13px arial;
+    }
+
+
+    .fix-block p {
+        font: 13px arial;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .fix-block{
+        padding-bottom: 50px;
+        padding-top: 150px;
+        padding-right: 10px;
+        padding-left: 10px;
+        /*background-color:rgba(0, 0, 0,0.5) ;*/
+    }
+
+}
+
+@media (max-width: 400px){
+    .fix-block ul {
+        font: 12px arial;
+    }
+
+
+    .fix-block p {
+        font: 12px arial;
+    }
+
+    #about {
+        height: 750px;
+    }
+
+    .fix-block{
+        height: auto;
+        /*padding-bottom: 0;*/
+        padding-top: 120px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}

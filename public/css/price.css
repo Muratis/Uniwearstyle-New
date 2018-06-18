@@ -1,0 +1,58 @@
+#price{
+
+    height: 1000px;
+    width: 100%;
+    background-image: url("/images/price_back.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table-price {
+    width: 600px;
+    margin-bottom: 30px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.table-price th {
+    padding: 8px;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.tables_price {
+    padding-top: 120px;
+}
+
+.tables_price h4 {
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    font-weight: 600;
+    /*opacity: 0.8;*/
+}
+
+
+@media (max-width: 670px){
+    .table-price {
+        width: 100%;
+        margin-bottom: 30px;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+    }
+
+    .tables_price h4 {
+
+        font-weight: 100;
+    }
+
+    .table-price th {
+        /*font-size: 10px;*/
+        padding: 4px;
+        text-align: center;
+        border-left: 2px solid #FFFFFF;
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+
+}

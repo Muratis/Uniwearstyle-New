@@ -1,0 +1,74 @@
+#example {
+    height: 980px;
+    width: 100%;
+    background-image: url("/images/exzample_back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.item_example h3 {
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.item_example {
+}
+
+.item_example img {
+    margin-left: 70px;
+    width: 400px;
+    height: 150px;
+    border: 2px solid #000000;
+}
+
+.block_example {
+    padding-top: 100px;
+    /*padding-left: 40px;*/
+}
+@media (max-width: 1201px) {
+
+    .item_example img {
+        margin-left: 40px;
+        width: 40%;
+        height: 150px;
+        border: 2px solid #000000;
+    }
+
+
+
+    .item_example h3 {
+        color: #FFFFFF;
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .item_example img {
+        margin-left: 25px;
+        width: 38%;
+        height: 100px;
+        border: 2px solid #000000;
+    }
+
+
+
+    .item_example h3 {
+        color: #FFFFFF;
+        margin-left: 30px;
+    }
+
+    #example {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .block_example {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+
+}

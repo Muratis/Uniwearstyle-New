@@ -1,0 +1,125 @@
+::-webkit-scrollbar {
+    width: 13px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.wrapper{
+    display: table;
+    margin: auto;
+}
+
+#main {
+    background-image: url("/images/college/bag.png");
+    /*background-color: #1abb9c;*/
+    /*width: 100%;*/
+    height: 970px;
+    /*background-attachment: fixed;*/
+}
+
+#brand2 a img {
+    /*background-image: url("/images/college/bag.png");*/
+    margin: 0;
+    width: 700px;
+    height: auto;
+}
+
+.button_catalog {
+    position: relative;
+    top: 550px;
+    max-width: 360px;
+}
+
+.button_catalog button {
+    border: 4px solid #000000;
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    transition: 2s;
+    background-color: transparent;
+
+}
+
+.button_catalog button:hover{
+    transition: 2s;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+
+
+.pointer{
+
+    background-color: #000000;
+    color: #FFFFFF;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pointer h2{
+    font: 40px arial;
+}
+
+.img-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.8);
+}
+
+
+@media (max-width: 1201px) {
+    #brand2 a img {
+        /*background-image: url("/images/college/bag.png");*/
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+@media(max-width: 800px) {
+
+    .pointer h2{
+        font: 30px arial;
+    }
+}
+
+
+@media(max-width: 500px) {
+
+    .pointer h2{
+        font: 25px arial;
+    }
+
+    #main {
+        height: 670px;
+    }
+
+
+    .button_catalog {
+        position: relative;
+        top: 350px;
+        max-width: 360px;
+    }
+
+
+}
+
+
+

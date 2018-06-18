@@ -1,0 +1,143 @@
+
+#projects {
+    /*background-attachment: fixed;*/
+    background-color: #3F3F3F;
+    width: 100%;
+    height: 980px;
+}
+
+
+.item img {
+    height: 270px;
+    float: left;
+}
+
+.fixed_image{
+
+    margin-right: 50px;
+    float: left;
+    width: 270px; /*задаем фиксированные размеры родительскому блоку*/
+    height: 270px;
+    overflow: hidden; /*скрываем все, что в блок не помещается по его размерам*/
+}
+
+.fixed_image img {
+    border: 2px solid #000000;
+    height: 240px; /*задаем минимальную ширину и высоту, картинка подстроится под нужные размера блока, пропорции сохраняются*/
+}
+
+
+.item p {
+    font-family: Arial;
+    line-height: 60px;
+    font-size: 40px;
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    color: #FFFFFF;
+
+}
+
+
+.carousel-indicators{
+    bottom: -30px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active {
+    width: 16px;
+    height: 16px;
+}
+
+
+@media (max-width: 1024px){
+
+    #projects {
+
+        background-color: #3F3F3F;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .item img {
+
+        height: 190px;
+        float: left;
+    }
+
+    .fixed_image{
+        margin-top: 10px;
+        margin-right: 50px;
+        width: 190px; /*задаем фиксированные размеры родительскому блоку*/
+        height: 190px;
+    }
+
+    .fixed_image img {
+        height: 160px; /*задаем минимальную ширину и высоту, картинка подстроится под нужные размера блока, пропорции сохраняются*/
+    }
+
+    .item p {
+        line-height: 35px;
+        font-size: 25px;
+        margin-left: 50px;
+        width: 170px;
+
+    }
+
+    .carousel-indicators{
+      bottom: 0;
+    }
+    #carousel{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+
+}
+
+@media (max-width: 500px){
+
+
+
+    .item img {
+
+        height: 150px;
+        float: left;
+    }
+
+    .fixed_image{
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 40%; /*задаем фиксированные размеры родительскому блоку*/
+        height: 120px;
+    }
+
+    .fixed_image img {
+        /*width: 100%;*/
+        height: 110%; /*задаем минимальную ширину и высоту, картинка подстроится под нужные размера блока, пропорции сохраняются*/
+    }
+
+    .item p {
+        line-height: 28px;
+        font-size: 19px;
+        margin-left: 30px;
+        width: 40%;
+
+    }
+
+    .carousel-indicators{
+        bottom: 0;
+    }
+    #carousel{
+        padding-left: 10px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+
+}

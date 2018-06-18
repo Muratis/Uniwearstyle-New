@@ -1,0 +1,96 @@
+.shopItem img{
+    height: 100px;
+    float: left;
+    border: 2px solid #000000;
+    margin-right: 10px;
+}
+.shopItem {
+    margin-left: 20px;
+    margin-top: 10px;
+    /*padding-right: 20px;*/
+    /*border-bottom: 2px solid red;*/
+}
+hr {
+    border-color: #000000;
+}
+
+.shopItem div {
+
+    /*margin-top: 20px;*/
+    /*float: left;*/
+    width: 300px;
+}
+
+.shopItem div p {
+    font: 17px arial;
+    /*line-height: 7px;*/
+}
+
+.shopItem div p + p {
+    font: 13px arial;
+    opacity: 0.7;
+
+}
+
+#price {
+    float: right;
+    color: #000000;
+    font: 17px arial;
+    margin-right: 30px;
+}
+
+.total{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-top: 2px solid #b3b3b3;
+}
+
+.total span{
+    font: 18px arial;
+}
+
+.total span + span {
+    float: right;
+    margin-right: 20px;
+    font: 20px arial;
+}
+
+
+#form {
+    max-width: 570px;
+}
+
+form div div input {
+    height: 41px!important;
+}
+
+form div div {
+    margin-bottom: 20px;
+}
+
+select {
+    height: 41px!important;
+}
+
+.ship_to_addres {
+    display: none;
+}
+
+#npCities{
+   width: 100%;
+    font: 12px arial;
+}
+
+#npCities option {
+    font: 12px arial;
+    width: 300px !important;
+}
+
+@media(max-width: 600px) {
+   .ship_to_nv{
+       float: none;
+       width: 100%;
+   }
+}

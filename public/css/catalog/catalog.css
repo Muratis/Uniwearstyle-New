@@ -1,0 +1,358 @@
+#catalog {
+    /*background-image: url("/images/college/bag.png");*/
+    background-color: #e8e8e8;
+    background-attachment: fixed;
+    height: auto;
+}
+
+
+
+#back_to_catalog {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 18px;
+    font: 20px arial;
+    position: relative;
+    bottom: 30px;
+    display: none;
+    border-radius: 20px;
+}
+
+#back_to_catalog:hover{
+    text-decoration: none;
+}
+
+
+.cataloge{
+    /*margin-top: 50px;*/
+    padding-top: 150px;
+
+}
+
+.content{
+    padding-top: 20px;
+
+    padding-right: 17px;
+    /*width: 800px;*/
+}
+
+.item_tshirt {
+    z-index: 0;
+}
+.item_tshirt div {
+
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    /*margin-top: 20px;*/
+    z-index: 0;
+}
+
+
+.item_tshirt div a {
+    font-weight: 600;
+    color: #000000;
+}
+
+.item_tshirt div a img {
+    width: 200px;
+    height: auto;
+    /*border: 2px solid #000000;*/
+    /*box-shadow: 3px 3px 12px 3px #8c8c8c;*/
+    box-shadow: 3px 3px 12px 3px #000000;
+
+    margin-bottom: 15px;
+}
+
+.item_tshirt div a:hover{
+    /*opacity: 0.6;*/
+    text-decoration: none;
+}
+
+.item_tshirt div p  {
+    color: #000000;
+    font: bold 14px arial;
+    margin-top: 7px;
+    /*margin-left: 10px;*/
+}
+
+.no_stock {
+  opacity: 0.6;
+
+
+}
+
+.no_stock .span_stock {
+    /*margin-left: 30px;*/
+    margin-top: -20px;
+    font: bold 18px arial;
+    position: absolute;
+    /*top: 600px;*/
+    /*bottom: 50px;*/
+    /*float: right;*/
+    color: #000000;
+
+}
+
+
+.filter {
+    float: left;
+    width: 200px;
+    margin-left: 40px;
+    /*height: 1300px;*/
+    /*background-color: #8c8c8c;*/
+}
+
+
+.off-product, .on-product, .off-sizes, .on-sizes {
+    color: #000000;
+    font: bold 18px arial;
+
+}
+
+.off-product i, .on-product i, .off-sizes i, .on-sizes i {
+    margin-right: 10px;
+}
+
+.off-product:hover, .on-product:hover, .off-sizes:hover, .on-sizes:hover {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+.product {
+    position: relative;
+    top: 10px;
+    right: 15px;
+
+}
+
+
+
+.product ul li button {
+    color: #000000;
+    font: 18px arial;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    margin-top: 5px;
+
+}
+
+.product ul li button:hover{
+    background: none;
+    opacity: 0.6;
+
+}
+
+.sizes_product{
+    position: relative;
+    top: 20px;
+}
+
+.sizes_product ul li button{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #aeb3b9;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    color: #000000;
+    font: 16px arial;
+}
+
+
+
+.sizes_product ul li button:hover{
+    background-color: #000000;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+
+.activeFilter {
+    background-color: #000000!important;
+    color: #FFFFFF !important;
+    opacity: 0.7;
+}
+
+.pag {
+    margin-left: 200px;
+    width: 250px;
+    /*float: left;*/
+}
+
+.pag ul li span {
+    /*width: 100px;*/
+    background-color: #000000!important;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font: 21px arial;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+.pag ul li a {
+    width: 100px;
+    background-color: #000000!important;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font: 21px arial;
+    text-align: center;
+}
+
+.collapse-filter {
+    /*float: left;*/
+    color: #FFFFFF;
+    background-color: #000000;
+    position: relative;
+    /*width: 80%;*/
+    width: 400px;
+    top: 30px;
+
+
+}
+
+#filter-collapse-1 {
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+
+#filter-collapse-1 hr{
+    opacity: 0;
+}
+
+#filter-collapse-1 span {
+
+    color: #000000;
+    font: 17px arial;
+}
+
+#filter-collapse-1 .product ul li button:hover{
+    background-color: #000000;
+    color: #000000;
+    opacity: 0.6;
+
+}
+
+@media(max-width: 991px) {
+    .content{
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 810px) {
+    .content {
+        padding-top: 20px;
+        padding-right: 15px;
+    }
+
+    .item_tshirt div {
+        width: 150px;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        /*margin-top: 20px;*/
+    }
+
+    .no_stock .span_stock {
+        font: bold 13px arial;
+        margin-top: -15px;
+    }
+    .item_tshirt div a img {
+        width: 160px;
+        height: auto;
+        box-shadow: 3px 3px 12px 3px #000000;
+        margin-bottom: 15px;
+
+    }
+
+
+}
+
+@media(max-width: 741px) {
+    #filter-collapse-1 {
+        /*float: left;*/
+        position: inherit;
+        /*top: 270px;*/
+        margin-top: 20px;
+        width: 60%;
+        /*left: 0;*/
+        margin-left: 0;
+        padding-top: 10px;
+        padding-left: 20px;
+        border-radius: 10px;
+
+    }
+}
+
+@media(max-width: 660px) {
+    .content {
+        padding-right: 10px;
+    }
+
+    .item_tshirt div {
+        width: 135px;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 50px;
+        /*margin-top: 20px;*/
+    }
+
+
+    .item_tshirt div a img {
+        width: 135px;
+        height: auto;
+        box-shadow: 3px 3px 12px 3px #000000;
+        margin-bottom: 15px;
+    }
+
+    .no_stock .span_stock {
+        margin-top: -15px;
+        font: bold 13px arial;
+
+    }
+
+    .collapse-filter {
+        /*float: left;*/
+        color: #FFFFFF;
+        background-color: #000000;
+        position: relative;
+        width: 100%;
+
+        top: 5px;
+
+
+    }
+
+
+}
+
+
+
+@media(max-width: 400px) {
+
+    .item_tshirt div {
+        width: 105px;
+        margin-bottom: 30px;
+    }
+
+
+    .item_tshirt div a img {
+        width: 105px;
+        height: auto;
+        /*height: 160px;*/
+
+    }
+}

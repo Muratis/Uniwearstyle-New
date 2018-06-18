@@ -1,0 +1,63 @@
+#sizes{
+    background-image: url("/images/college/bag.png");
+    background-attachment: fixed;
+    height: 980px;
+    width: 100%;
+}
+
+.item_size {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 500px;
+    float: left;
+}
+
+.item_size img {
+    max-width: 500px;
+    height: auto;
+}
+
+.block_sizes {
+    padding-top: 100px;
+    /*padding-left: 40px;*/
+}
+
+@media (max-width: 1201px) {
+    .item_size {
+        width: 40%;
+    }
+
+    .item_size img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #sizes{
+        height: auto;
+    }
+
+    .block_sizes {
+        padding-top: 110px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .item_size {
+        width: 75%;
+    }
+
+    .item_size img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #sizes{
+        height: auto;
+    }
+
+    .block_sizes {
+        padding-top: 110px;
+
+    }
+}
